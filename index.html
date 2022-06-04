@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="jquery-3.6.0.js"></script>
+  <script src="scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <h1>Example of form-inputs include:-</h1>
+  <h4>select boxes</h4>
+
+  <p>favourite beverage</p>
+  <select name="form-control" id="beverage">
+    <option>coffee</option>
+    <option>Tea</option>
+    <option>Milk</option>
+    <option>Lemonade</option>
+  </select>
+
+  <p>favourite car</p>
+  <select class="form-control" id="cars">
+    <option value="1">Tesla</option>
+    <option value="2">Cardilac Escalade</option>
+    <option value="3">Bentley</option>
+  </select>
+
+  <h4>Radio buttons</h4>
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="chocolate" checked>
+      Chocolate
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="vanilla">
+      Vanilla
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="flavor" value="cookiesandcream">
+      Cookies & Cream
+    </label>
+  </div>
+
+  <h4>Date</h4>
+  <div class="form-group">
+    <label for="born">Date of birth:</label>
+    <input id="born" class="form-control" type="date">
+  </div>
+  <h4>Color</h4>
+  <div class="form-group">
+    <label for="color">What is your favorite color?</label>
+    <input id="color" class="form-control" type="color">
+  </div>
+
+</div>
+</body>
+</html>
